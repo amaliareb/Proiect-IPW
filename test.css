@@ -1,0 +1,39 @@
+table {background-color: purple; color: gray;}
+a {font-family:Comic Sans MS;}
+a:hover {color:gray;}
+a:active{color:green;}
+.couriers{font-family:Courier;}
+h1 {font-variant:small-caps; text-decoration:underline overline;}
+
+
+body {
+  font: 14px/1.4 arial;
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+  -moz-transition: visibility opacity 1.0s;
+  -webkit-transition: visibility opacity 1.0s;
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}

@@ -1,0 +1,66 @@
+div::-moz-selection {background: #ffffff; color: #895033;}
+div.head
+{
+	background-color: #000000;
+	color: #999999;
+	border-color: #999999;
+	border-width: 10px;
+	border-style:double;
+	width: 400px;
+	margin: 0 auto;
+	text-align: left;
+	padding: 30px;
+	/* position: absolute; */
+	/* top:0px;
+	right:0px; */
+	/* font-family:KBAStitchInTime; */
+	font-size: 17px;
+	font-variant: small-caps;
+}
+
+.round /* cerculet cu text*/
+{
+	opacity: 1.0;
+	background-color: #ac8470;
+	color:#353535;
+	padding: 0px;
+	text-align: center;
+	border-color: #353535;
+	border-width: 10px;
+	border-style:double;
+	border-collapse:collapse;
+	position: absolute; 
+	font-size:20px;
+	font-variant:small-caps;
+}
+
+.roundtitle
+{
+	opacity: 1.0;
+	background-color: #ac8470;
+	color:#353535;
+	padding: 30px;
+	text-align: center;
+	border-color: #4c4c4c;
+	border-width: 10px;
+	border-style:double;
+	border-collapse:collapse;
+	padding: 0px; 
+	position: absolute; 
+	bottom:50px; 
+	left:540px; 
+	border-radius: 280px; 
+	width: 280px; 
+	height: 280px;
+	text-align: center;
+	font-size: 50px;
+	font-variant: small-caps;
+	font-family:KBAStitchInTime;
+}
+
+img.brown
+{
+	position: absolute;
+  	top: 0;
+  	right: 0;
+}
