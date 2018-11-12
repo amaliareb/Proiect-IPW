@@ -1,0 +1,89 @@
+div::-moz-selection {background: #ffffff; color: #4d4d4d;} /*schimba culoarea selectiei */
+
+#app{display:-webkit-flex; display:flex;} /*incap mai multe elemente pe o linie */
+
+div.round /* cerculet cu text*/
+{
+	opacity: 0.1;
+	background-color: #FFC0CB;
+	color:#FFC0CB;
+	text-align: center;
+	border-color: #4d4d4d;
+	border-width: 10px;
+	border-style:double;
+	border-collapse:collapse;
+}
+div.round:hover /* cerculet cu text*/
+{
+	opacity: 1.0;
+	background-color: #FFC0CB;
+	color:#000000;
+	border-radius: 500px;
+	width: 500px;
+	height: 500px; 
+	text-align: center;
+	padding: 0px;
+	position: relative;
+	top:10px;
+	left:50px;
+	border-color: #4d4d4d;
+	border-width: 10px;
+	border-style:double;
+	border-collapse:collapse;
+}
+
+ div.round:hover /* cerculet cu text*/
+{
+	opacity: 1.0;
+	background-color: #FFC0CB;
+	color:#000000;
+	text-align: center;
+	border-color: #4d4d4d;
+	border-width: 10px;
+	border-style:double;
+	border-collapse:collapse;
+} 
+
+
+	border-radius: 200px;
+	width: 200px;
+	height: 200px; 
+	padding: 0px;
+	position: absolute;
+	top:10px;
+	left:600px;
+
+body {
+  font: 14px/1.4 arial;
+}
+
+.imgWrap {
+  position: relative;
+  height: 200px;
+  width: 257px;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+
+  visibility: hidden;
+  opacity: 0;
+
+  /*remove comment if you want a gradual transition between states
+  -webkit-transition: visibility opacity 0.2s;
+  */
+}
+
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+	
